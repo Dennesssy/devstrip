@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Enable App Sandbox -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	
+	<!-- Allow reading user-selected files -->
+	<key>com.apple.security.files.user-selected.read-only</key>
+	<true/>
+	
+	<!-- Optional: Allow writing to user-selected files (if you need to delete/move files) -->
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	
+	<!-- Allow security-scoped bookmarks for persistent access -->
+	<key>com.apple.security.files.bookmarks.app-scope</key>
+	<true/>
+	
+	<!-- Allow network access (if needed for updates or cloud sync) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>
